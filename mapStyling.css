@@ -5,7 +5,15 @@
 
 body {
   text-align: center;
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
+  background: linear-gradient(
+    45deg,
+    #c0f3e5,
+    #becfec,
+    #f0cabc,
+    #cfebb6,
+    #f3bbe3
+  );
 }
 
 .container-1 {
@@ -40,4 +48,8 @@ nav > button {
 nav > button:hover {
   background-color: rgb(139, 221, 155);
   border-color: lightgreen;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
 }
