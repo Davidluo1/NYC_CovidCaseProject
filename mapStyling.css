@@ -30,12 +30,13 @@ button {
 a {
   text-decoration: none;
   border-radius: 20%;
+  font-family: cursive;
 }
 
 p {
-  padding-top: 15px;
-  padding-left: 100px;
-  padding: 15px 150px 50px 150px;
+  padding: 15px 150px 15px 150px;
+  font-size: large;
+  font-family: serif;
 }
 
 nav > button {
@@ -50,6 +51,6 @@ nav > button:hover {
   border-color: lightgreen;
 }
 
-h2 {
+h1 {
   font-family: "Courier New", Courier, monospace;
 }

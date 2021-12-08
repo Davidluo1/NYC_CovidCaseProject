@@ -51,7 +51,7 @@ p {
 nav > button {
   background-color: rgb(91, 216, 116);
   padding: 10px 30px 10px 30px;
-  border-radius: 25%;
+  border-radius: 20%;
   border: none;
 }
 
@@ -69,6 +69,7 @@ a {
   padding: 4px;
   border: none;
   border-radius: 20%;
+  font-family: cursive;
 }
 
 h2 {
@@ -77,10 +78,14 @@ h2 {
 
 .title {
   font-family: "Courier New", monospace;
-  text-shadow: 2px 2px 5px #e77b84;
+  text-shadow: 2px 2px 5px #c05b63;
 }
 
 .source-links {
   padding: 10px;
   line-height: 150%;
+}
+
+.source-links h3 {
+  font-family: fantasy;
 }
